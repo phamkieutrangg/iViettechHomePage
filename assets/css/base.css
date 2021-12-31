@@ -1,0 +1,26 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    font-size: 13.28px;
+    line-height: 19.92;
+    font-family: sans-serif;
+}
+/* responsive */
+.gird{
+    width: 1000px;
+    margin: 0 auto;
+}
+.gird_full_width{
+    width: 100%;
+}
+.girl_row{
+    disphay: flex;
+    flex-wrap: wrap;
+}
